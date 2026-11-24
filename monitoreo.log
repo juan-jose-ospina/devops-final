@@ -1,0 +1,13 @@
+===== MONITOREO 2026-11-24 19:11:29 =====
+API: OK (HTTP 200) en http://localhost:8018/health
+--- Estado de contenedores ---
+NAMES       STATUS                    PORTS
+est18_api   Up 13 minutes (healthy)   0.0.0.0:8018->5000/tcp, [::]:8018->5000/tcp
+est18_db    Up 13 minutes (healthy)   5432/tcp
+--- Ultimos logs de est18_api ---
+[2026-11-24 19:11:19 +0000] [7] [INFO] Worker exiting (pid: 7)
+[2026-11-24 19:11:20 +0000] [1] [ERROR] Worker (pid:7) was sent SIGKILL! Perhaps out of memory?
+[2026-11-24 19:11:20 +0000] [165] [INFO] Booting worker with pid: 165
+{"fecha": "2026-11-24T19:11:20+00:00", "nivel": "INFO", "mensaje": "peticion", "metodo": "GET", "ruta": "/health", "estado": 200, "duracion_ms": 42.85, "ip": "127.0.0.1"}
+{"fecha": "2026-11-24T19:11:29+00:00", "nivel": "INFO", "mensaje": "peticion", "metodo": "GET", "ruta": "/health", "estado": 200, "duracion_ms": 117.0, "ip": "172.21.0.1"}
+
