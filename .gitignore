@@ -3,3 +3,4 @@ reportes/
 monitoreo.log
 __pycache__/
 *.pyc
+.DS_Store
