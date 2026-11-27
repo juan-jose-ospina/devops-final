@@ -1,8 +1,4 @@
 #!/bin/bash
-# seguridad.sh - DevSecOps y monitoreo (estudiante18)
-# Uso:
-#   ./seguridad.sh              -> escaneos de seguridad + monitoreo
-#   ./seguridad.sh monitorear   -> solo monitoreo
 
 PUERTO=8018
 IMAGEN="estudiante18-api:latest"
